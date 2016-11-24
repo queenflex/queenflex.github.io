@@ -1,0 +1,53 @@
+baseurl = "http://queenflex.github.io/"
+title = "queenflex blog"
+languageCode = "en-us"
+author = "queenflex blog"
+# Shown in the side menu
+copyright = "&copy; 2016. queenflex.com. All rights reserved."
+canonifyurls = true
+paginate = 10
+theme = "hugo-bootstrap"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "lift heavy. live happy."
+  brand = "queenflex"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "queenflex.com"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  custom_css = ["css/style.css"]
+  #custom_js = ["js/ui.js"]
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 3
+    url = "/contact/"
