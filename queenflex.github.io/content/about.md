@@ -1,6 +1,6 @@
 +++
 title = "about"
-date = "2016-24-11"
+date = "2016-11-24T20:15:17-05:00"
 sidemenu = "true"
 description = "this is a no b.s. fitness blog"
 +++
