@@ -799,21 +799,6 @@
 
   
 
-  <br>
- <b> Like this article? Share it! </b>
- <br>
- <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-	<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-	<a class="a2a_button_facebook"></a>
-	<a class="a2a_button_twitter"></a>
-	<a class="a2a_button_google_plus"></a>
-	<a class="a2a_button_email"></a>
-	<a class="a2a_button_sms"></a>
-</div>
-<br>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-
-
   
 
 
@@ -828,6 +813,100 @@
 </nav>
 
 
+
+  
+
+<script src="https://queenflex.github.io/js/vex.combined.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://queenflex.github.io/css/vex-theme-wireframe.css">
+
+
+<button onclick="subscribe()">Subscribe</button>
+
+<script>
+function hide (elements) {
+  elements = elements.length ? elements : [elements];
+  for (var index = 0; index < elements.length; index++) {
+    elements[index].style.display = 'none';
+  }
+}
+
+function subscribe() {
+    
+    vex.defaultOptions.className = 'vex-theme-wireframe';
+    var vexId = vex.dialog.open({
+    message: 'Get latest updates, enter your email:',
+    input: [
+        '<input name="email" type="text" placeholder="email@domain.com" required />',
+    ].join(''),
+    buttons: [
+        $.extend({}, vex.dialog.buttons.YES, { text: 'Subscribe' }),
+        $.extend({}, vex.dialog.buttons.NO, { text: 'Back' })
+    ],
+    callback: function (data) {
+        if (!data) {
+                }
+                else {
+            var email_value = data.email;
+                        var form = document.createElement("form");
+                        form.setAttribute('method',"post");
+                        
+                        form.setAttribute('action', "http://formspree.io/hi@queenflex.com");
+
+                        var input = document.createElement("input"); 
+                        input.setAttribute('type',"email");
+                        input.setAttribute('name',"email");
+                        input.value = email_value;
+
+                        form.appendChild(input);
+                        form.submit();
+        }
+                
+                
+    },
+    });
+}
+</script>
+
+<script>
+  function createSidePopup() {
+    if (document.querySelectorAll('.vex').length == 0) {
+        vex.defaultOptions.className = 'vex-theme-bottom-right-corner';
+        var vexId = vex.dialog.open({
+        message: 'Why not subscribe for more?! Become a queenflex insider, today!',
+        input: [
+            '<input name="email" type="text" placeholder="email@domain.com" required />',
+        ].join(''),
+        buttons: [
+            $.extend({}, vex.dialog.buttons.YES, { text: 'Subscribe' }),
+            $.extend({}, vex.dialog.buttons.NO, { text: 'Back' })
+        ],
+        callback: function (data) {
+            if (!data) {
+                    }
+                    else {
+                var email_value = data.email;
+                            var form = document.createElement("form");
+                            form.setAttribute('method',"post");
+                            form.setAttribute('action', "http://formspree.io/hi@queenflex.com");
+
+                            var input = document.createElement("input");
+                            input.setAttribute('type',"email");
+                            input.setAttribute('name',"email");
+                            input.value = email_value;
+
+                            form.appendChild(input);
+                            form.submit();
+            }
+                    hide(document.querySelectorAll('.vex'));
+        },
+        });
+    }
+}
+
+function onScrollSubscribePopup () {
+    
+}
+</script>
 
   
 <div id="disqus_thread"></div>
