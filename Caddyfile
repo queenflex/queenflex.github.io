@@ -1,0 +1,8 @@
+http://queenflex.com
+
+git github.com/queenflex/queenflex.github.io . {
+	hook /webhook somesecret
+	then hugo 
+}
+
+root queenflex.github.io
