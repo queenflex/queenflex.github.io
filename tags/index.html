@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.17" />
 
-  <title>queenflex blog</title>
+  <title>Tags &middot; queenflex blog</title>
 
   
   
@@ -37,7 +37,7 @@
 
   
   
-  <link rel="alternate" type="application/rss+xml" title="queenflex blog" href="https://queenflex.github.io/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="queenflex blog" href="https://queenflex.github.io/tags/index.xml" />
   
 
   
@@ -53,8 +53,8 @@
 
   
   <meta content="" name="keywords">
-  <meta content="queenflex blog" property="og:title">
-  <meta content="" property="og:description">
+  <meta content="Tags - queenflex blog" property="og:title">
+  <meta content=" - " property="og:description">
 
 </head>
 
@@ -123,7 +123,7 @@
 
     
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://queenflex.github.io/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      <a class="pure-menu-link" href="https://queenflex.github.io/tags/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
     </li>
     
 
@@ -226,130 +226,103 @@
 
 
 <div class="header">
-  <h1>queenflex blog</h1>
-  <h2>live healthy. lift heavy.</h2>
+  <h1>Tags</h1>
 </div>
-
 <div class="content">
+  <ul>
   
-
   
-
-
+    <li>
+      <a href="training">training</a>
+      <span>&#40;16&#41;</span>
+    </li>
   
-
-<script src="https://queenflex.github.io/js/vex.combined.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://queenflex.github.io/css/vex-theme-wireframe.css">
-
-
-<button onclick="subscribe()">Subscribe</button>
-
-<script>
-function hide (elements) {
-  elements = elements.length ? elements : [elements];
-  for (var index = 0; index < elements.length; index++) {
-    elements[index].style.display = 'none';
-  }
-}
-
-function subscribe() {
-    
-    vex.defaultOptions.className = 'vex-theme-wireframe';
-    var vexId = vex.dialog.open({
-    message: 'Get latest updates, enter your email:',
-    input: [
-        '<input name="email" type="text" placeholder="email@domain.com" required />',
-    ].join(''),
-    buttons: [
-        $.extend({}, vex.dialog.buttons.YES, { text: 'Subscribe' }),
-        $.extend({}, vex.dialog.buttons.NO, { text: 'Back' })
-    ],
-    callback: function (data) {
-        if (!data) {
-                }
-                else {
-            var email_value = data.email;
-                        var form = document.createElement("form");
-                        form.setAttribute('method',"post");
-                        
-                        form.setAttribute('action', "http://formspree.io/hi@queenflex.com");
-
-                        var input = document.createElement("input"); 
-                        input.setAttribute('type',"email");
-                        input.setAttribute('name',"email");
-                        input.value = email_value;
-
-                        form.appendChild(input);
-                        form.submit();
-        }
-                
-                
-    },
-    });
-}
-</script>
-
-<script>
-  function createSidePopup() {
-    if (document.querySelectorAll('.vex').length == 0) {
-        vex.defaultOptions.className = 'vex-theme-bottom-right-corner';
-        var vexId = vex.dialog.open({
-        message: 'Why not subscribe for more?! Become a queenflex insider, today!',
-        input: [
-            '<input name="email" type="text" placeholder="email@domain.com" required />',
-        ].join(''),
-        buttons: [
-            $.extend({}, vex.dialog.buttons.YES, { text: 'Subscribe' }),
-            $.extend({}, vex.dialog.buttons.NO, { text: 'Back' })
-        ],
-        callback: function (data) {
-            if (!data) {
-                    }
-                    else {
-                var email_value = data.email;
-                            var form = document.createElement("form");
-                            form.setAttribute('method',"post");
-                            form.setAttribute('action', "http://formspree.io/hi@queenflex.com");
-
-                            var input = document.createElement("input");
-                            input.setAttribute('type',"email");
-                            input.setAttribute('name',"email");
-                            input.value = email_value;
-
-                            form.appendChild(input);
-                            form.submit();
-            }
-                    hide(document.querySelectorAll('.vex'));
-        },
-        });
-    }
-}
-
-function onScrollSubscribePopup () {
-    
-}
-</script>
-
+    <li>
+      <a href="meal-prep">meal-prep</a>
+      <span>&#40;9&#41;</span>
+    </li>
   
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'queenflex';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
+    <li>
+      <a href="recipes">recipes</a>
+      <span>&#40;9&#41;</span>
+    </li>
+  
+    <li>
+      <a href="daily-blogs">daily-blogs</a>
+      <span>&#40;7&#41;</span>
+    </li>
+  
+    <li>
+      <a href="strength">strength</a>
+      <span>&#40;6&#41;</span>
+    </li>
+  
+    <li>
+      <a href="recovery">recovery</a>
+      <span>&#40;4&#41;</span>
+    </li>
+  
+    <li>
+      <a href="2015">2015</a>
+      <span>&#40;3&#41;</span>
+    </li>
+  
+    <li>
+      <a href="healthy-eating">healthy-eating</a>
+      <span>&#40;2&#41;</span>
+    </li>
+  
+    <li>
+      <a href="audio-clips">audio-clips</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="fitness-gear">fitness-gear</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="health">health</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="iifym">iifym</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="injury">injury</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="lifestyle">lifestyle</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="makeitcount">makeitcount</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="posture">posture</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="supplements">supplements</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+    <li>
+      <a href="warm-up">warm-up</a>
+      <span>&#40;1&#41;</span>
+    </li>
+  
+  </ul>
 </div>
 
 </div>
@@ -379,6 +352,3 @@ function onScrollSubscribePopup () {
 
 </body>
 </html>
-
-
-
