@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>queenflex blog</title>
+    <link>https://queenflex.github.io/tags/progress/index.xml</link>
+    <description>Recent content on queenflex blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <atom:link href="https://queenflex.github.io/tags/progress/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1-rm progression calculator</title>
+      <link>https://queenflex.github.io/calculator/</link>
+      <pubDate>Thu, 24 Nov 2016 15:20:16 -0500</pubDate>
+      
+      <guid>https://queenflex.github.io/calculator/</guid>
+      <description>&lt;p&gt;Ever struggle to figure out how much weight you should use per set during a 1-rep-max test?&lt;/p&gt;
+
+&lt;p&gt;Well, look no further! Here&amp;rsquo;s a calculator that you can use to determine how much weight you should use for each of your warm-up and working sets in order to reach your target 1RM.&lt;/p&gt;
+
+&lt;p&gt;Input your target 1RM weight into the &amp;ldquo;target 1RM weight&amp;rdquo; field as well as the set number. The calculator will output the number of reps and respective weight you should hit for the given set. All calculations are based on the recommendations from &lt;a href=&#34;https://www.t-nation.com/training/how-to-warm-up-for-a-one-rep-max&#34;&gt;this T-Nation article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+&lt;p&gt;Tool courtesy of &lt;a href=&#34;https://queenflex.com&#34;&gt;queenflex.com&lt;/a&gt;, written by &lt;a href=&#34;https://twitter.com/lizmillerfit&#34;&gt;@lizmillerfit&lt;/a&gt; on &lt;a href=&#34;https://jscalc.io&#34;&gt;jscalc.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&#34;https://jscalc.io/embed/aQMGRFvVJOGJW6Iq?autofocus=1&#34; width=&#34;100%&#34; height=&#34;600px&#34; frameborder=&#34;0&#34; overflow:&#34;hidden&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
